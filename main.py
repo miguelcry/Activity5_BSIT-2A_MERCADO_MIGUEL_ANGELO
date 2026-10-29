@@ -77,7 +77,6 @@ def run_queue(queue):
 
 
 def balanced_parentheses(expression):
-    # Check (), [], and {} using a stack.
     stack = []
     pairs = {")": "(", "]": "[", "}": "{"}
 
@@ -93,7 +92,6 @@ def balanced_parentheses(expression):
 
 
 def print_queue_demo():
-    # Simulate print jobs in FIFO order.
     jobs = []
 
     try:
