@@ -1,0 +1,52 @@
+This project demonstrates four data structure implementations
+using Python: ArrayStack, LinkedStack, ArrayQueue, and LinkedQueue.
+
+It also includes a balanced-parentheses checker and a print
+queue simulation.
+
+## Files
+
+- array_stack.py - Implements a fixed-capacity array stack.
+- linked_stack.py - Implements a stack using linked nodes.
+- array_queue.py - Implements a circular array queue.
+- linked_queue.py - Implements a queue using head and tail references.
+- main.py - Contains the menu and application exercises.
+- analysis.md - Contains the answer to the analysis question.
+- README.md - Describes the project and how to run it.
+
+## Requirements
+
+- Python 3
+- No additional packages are required.
+
+## How to Run
+
+1. Save all seven files in the same folder.
+2. Open a terminal in that folder.
+3. Run the following command:
+
+python main.py
+
+If your computer uses python3, run:
+
+python3 main.py
+
+## Error Handling
+
+The array stack and circular array queue raise an OverflowError
+when an item is added while the structure is full.
+
+Stack pop, stack peek, queue dequeue, and queue peek operations
+raise an IndexError when the structure is empty.
+
+The menu catches these errors and displays descriptive messages.
+
+## Testing
+
+1. Test stack push, pop, and peek operations.
+2. Test underflow by removing an item from an empty structure.
+3. Test overflow by exceeding an array structure's capacity.
+4. Test circular wrap-around by dequeuing an item and then
+   enqueuing another item into the freed slot.
+5. Test balanced and unbalanced parentheses.
+6. Test print jobs in FIFO order.
