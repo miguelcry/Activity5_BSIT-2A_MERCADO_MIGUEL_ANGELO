@@ -10,7 +10,6 @@ class LinkedStack:
         self.size = 0
 
     def push(self, item):
-        # Add the new node at the head.
         self.head = Node(item, self.head)
         self.size += 1
 
