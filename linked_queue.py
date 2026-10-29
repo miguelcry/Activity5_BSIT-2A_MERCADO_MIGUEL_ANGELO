@@ -48,7 +48,6 @@ class LinkedQueue:
         return self.head is None
 
     def is_full(self):
-        # No fixed capacity.
         return False
 
     def __str__(self):
