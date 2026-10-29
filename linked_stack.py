@@ -36,7 +36,6 @@ class LinkedStack:
         return self.head is None
 
     def is_full(self):
-        # A linked stack has no fixed capacity.
         return False
 
     def __str__(self):
